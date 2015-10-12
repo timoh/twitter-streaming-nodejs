@@ -1,0 +1,23 @@
+{
+  "name": "perustulo-tweets",
+  "version": "0.0.1",
+  "description": "Microservice to fetch #perustulo and #basicincome tweets to MongoLab",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "mongodb": "~2.0",
+    "twit": "~1.1"
+  },
+  "author": "Timo H.",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
